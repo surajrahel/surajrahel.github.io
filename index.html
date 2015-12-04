@@ -1,13 +1,21 @@
 
 <!doctype html>
 <html >
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
-    <script type="text/javascript" src="project.js"></script>
-  </head>
-  <body ng-app="myApp">
-    <div ng-controller="SettingsController1">       
-      <h1>Hello {{yourName}}!</h1>
-    </div>
-  </body>
-</html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>  
+	<script type="text/javascript" src="project.js"></script>
+</head>
+    
+    
+<body ng-app="myApp" class="row">
+
+    <a class="twitter-timeline" href="https://twitter.com/SurajRahel" data-widget-id="672802328915927040">Tweets by @SurajRahel</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <div class="small-12 column"> 
+		<div ng-controller="contactManagerCtrl">       
+			<h1>Contact Manager</h1>
+		</div>
+</div>
+</body>
+</html>		
